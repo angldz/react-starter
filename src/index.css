@@ -1,13 +1,81 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue';
+  background-color: #282c34;
+}
+
+.code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.title {
+  margin: 20px;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  background-color: #12222a;
+  flex: 0 1 90px;
+  padding: 0px 25px; 
+}
+
+.nav-logo-text {
+  margin-right: auto;
+  color: #61DAFB;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.nav-project-title {
+  color: #deebf8;
+  font-weight: 22px;
+}
+
+main {
+  flex: 1 0 auto;
+  padding: 57px 27px;
+  color: #deebf8;
+}
+
+.main-title {
+  margin: 0;
+  font-size: 39px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.main-ul-list {
+  margin-top: 46px;
+  font-size: 20px;
+}
+
+.main-ul-list > li {
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+.main-ul-list > li::marker{
+  font-size: 1.4rem;
+  color: #61DAFB;
+}
+
+.footer {
+  display: flex;
+  flex: 0 1 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+  background-color: #282c34;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
 }
