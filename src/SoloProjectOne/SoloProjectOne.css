@@ -1,0 +1,176 @@
+.solo-project-one-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1C1C1C;
+}
+
+.div-info{
+    width: 318px;
+    background-color: #1C1C1C;
+    
+}
+.profile-picture{
+    width: 317px;
+    height: 317px;
+    left: 116px;
+    top: 44px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.name{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #F3BF99;
+}
+
+.your-job{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #F3BF99;
+}
+
+
+.your-website{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 150%;
+
+    /* identical to box height, or 15px */
+    text-align: center;
+
+    color: white;
+}
+
+.div-button{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.button-email{
+    box-sizing: border-box;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    background: white;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #374151;
+    display: flex;
+}
+
+.button-linkedin{
+    /* Button */
+    box-sizing: border-box;
+
+    /* Auto layout */
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+
+    /* white */
+    background: #5093E2;
+   
+    /* gray/300 */
+    border: 1px solid #D1D5DB;
+    
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #374151;
+
+    display: flex;
+}
+
+
+.div-about{
+    width: 317px;
+    padding: 10px;
+    background-color: #1C1C1C;
+}
+
+.aboutme{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 150%;
+    color: #F5F5F5;
+}
+
+
+.description-aboutme{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #DCDCDC;
+}x
+
+.div-interests{
+    width: 317px;
+    padding: 10px;
+    font-weight: 400;
+    background-color: #1C1C1C;
+}
+
+
+.my-interests{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #F5F5F5;
+}
+
+
+.description-interests{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #DCDCDC;
+}
+
+
+.div-footer{
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    font-size: 30px;
+    width: 317px;
+    text-align: center;
+}
+
+.div-footer svg {
+    margin-right: 20px;
+    text-align: center;
+}
