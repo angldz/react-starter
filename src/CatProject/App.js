@@ -1,5 +1,5 @@
 import React from "react"
-import Contact from "./Contact"
+import Contact from "../AirbnbExProject/Contact"
 export default function App() {
     return (
         <div className="contacts">

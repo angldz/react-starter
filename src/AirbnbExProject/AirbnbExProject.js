@@ -4,8 +4,6 @@ import Navbar from "./Component";
 import Hero from "./Hero";
 import Card from "./Cards";
 import TryOut from "./TryOut";
-import Contact from "./Contact";
-import App from "./App";
 import data from "./data";
 
 export default function AirbnbExProject() {
@@ -33,10 +31,6 @@ export default function AirbnbExProject() {
           {cards}
       </section-hero>
       <TryOut />
-      <App />
-      {/* <About></About>
-      <Interests></Interests>
-      <Footer></Footer> */}
     </div>
   )
 }
