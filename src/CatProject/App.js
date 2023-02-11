@@ -9,7 +9,7 @@ export default function App() {
             <div className="contacts">
                 <Contact 
                     img="./images/mr-whiskerson.png"
-                    name="Mr. Whiskerson"
+                    name="Whiskerson"
                     phone="(212) 555-1234"
                     email="mr.whiskaz@catnap.meow"
                 />

@@ -52,9 +52,9 @@ body {
     text-align: left;
 }
 
-
-.group-telephone{
-    display:flex;
+.group-telephone, .group-email {
+    display: flex;
+    align-items: center;
     padding-top: 5px;
     font-family: 'Poppins';
     font-style: normal;
@@ -64,14 +64,7 @@ body {
     text-align: left;
 }
 
-.group-email{
-    display:flex;
-    padding-top: 5px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-size: 12px;
-    line-height: 110%;
-    color: #222222;
-    text-align: left;
-}
 
+.group-telephone p, .group-email p {
+    margin-left: 10px;
+}
