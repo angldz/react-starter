@@ -1,0 +1,77 @@
+body {
+    background-color: white;
+}
+
+.contacts-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.tryout{
+    display:flex;
+    padding: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex-direction: column;
+    width: 196px;
+}
+
+.contacts{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-card{
+    padding: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex-direction: column;
+    width: 196px;
+    display: flex;
+    align-items: center;
+}
+
+.images{
+    display: flex;
+    padding: 5px;
+    height: 120px;
+    border-radius: 9px;
+    background-size: cover;
+}
+
+.cat-name-one{
+    padding-top: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    color: #222222;
+    text-align: left;
+}
+
+
+.group-telephone{
+    display:flex;
+    padding-top: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 110%;
+    color: #222222;
+    text-align: left;
+}
+
+.group-email{
+    display:flex;
+    padding-top: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 110%;
+    color: #222222;
+    text-align: left;
+}
+

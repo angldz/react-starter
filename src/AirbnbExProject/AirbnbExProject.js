@@ -3,7 +3,6 @@ import "./AirbnbExProject.css";
 import Navbar from "./Component";
 import Hero from "./Hero";
 import Card from "./Cards";
-import TryOut from "./TryOut";
 import data from "./data";
 
 export default function AirbnbExProject() {
@@ -30,7 +29,6 @@ export default function AirbnbExProject() {
       <section-hero className="card-list">
           {cards}
       </section-hero>
-      <TryOut />
     </div>
   )
 }
